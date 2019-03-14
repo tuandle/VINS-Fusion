@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+	<node name="loop_fusion" pkg="loop_fusion" type="loop_fusion_node" output="screen" args="/home/tuan/workshop_ws/src/VINS-Fusion/config/ironsides/ironsides.yaml"/>
+</launch>
