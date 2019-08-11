@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
-	<node name="vins_estimator" pkg="vins" type="vins_node" output="screen" args="/home/tuan/workshop_ws/src/VINS-Fusion/config/ironsides/ironsides.yaml"/>
+	<!-- <node name="vins_estimator" pkg="vins" type="vins_node" output="screen" args="/home/tuan/vio_ws/src/VINS-Fusion/config/ironsides/ironsides.yaml"/> -->
+	<node name="vins_estimator" pkg="vins" type="vins_node" output="screen" args="/home/tuan/bags/yaml/vins_stereo.yaml"/>
 </launch>
